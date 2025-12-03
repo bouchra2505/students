@@ -1,4 +1,4 @@
-public package com.example.student.controller;
+package com.example.student.controller;
 
 import com.example.student.model.Student;
 import com.example.student.repository.StudentRepository;
@@ -60,8 +60,4 @@ public List<Student> searchStudents(@RequestParam String name) {
     public void deleteStudent(@PathVariable Long id) {
         studentRepository.deleteById(id);
     }
-}
-
- StudentController {
-    
 }
